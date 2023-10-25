@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  .button1 {
+    @apply text-white border bg-indigo-600 border-indigo-600
+    hover:bg-transparent hover:text-indigo-600 rounded-md
+  }
+  .button2 {
+    @apply bg-transparent border text-indigo-600 rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600;
+  }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: #6C63FF;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+ 
+.diagonalBackground{
+clip-path: polygon(58% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.navbar{
+  opacity: 0;
+  visibility: hidden;
+}
+.navbar.scrolling {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.videoPlayer{
+  object-fit: cover;
+}
+.scrollingVideo{
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+
+}
+.thumbnail{
+  transition: opacity 0.5s,
+}
+/* src/components/VideoSlider.css */
+.video-slider {
+  display: flex;
+  align-items: center;
+}
+
+.slide-btn {
+  height: 20%;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 2rem;
+  border: none;
+}
+
+.slide-btn:focus {
+  outline: none;
+}
+
+.video-slider {
+  overflow: hidden;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.video-slider video {
+  min-width: 100%; /* Stellen Sie sicher, dass jedes Video den vollen Container ausfüllt */
+}
+
+.formInput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
