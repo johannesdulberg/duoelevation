@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         <div className='flex items-center'>
           <ul className='hidden md:flex items-center'>
-          <li ><Link className="hover-underline-animation" to="shows" smooth={true} duration={500}>Shows</Link></li>
+          <li ><Link className="hover-underline-animation" to="shows" smooth={true}  offset={-50} duration={500}>Shows</Link></li>
           
           <li><Link className="hover-underline-animation" to="about" smooth={true} offset={-50} duration={500}>Über uns</Link></li>
           </ul>
@@ -52,13 +52,12 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? 'hidden' : 'absolute bg-white w-full px-8'}>
-          <li className=' bg-white w-full text-center'><Link className='hover-underline-animation' onClick={handleClose} to="home" smooth={true} duration={500}>Shows</Link></li>
-          
-          <li className=' bg-white w-full text-center'><Link className='hover-underline-animation' onClick={handleClose} to="about" smooth={true} offset={-50} duration={500}>Über uns</Link></li>
+      <li ><Link className="hover-underline-animation" to="shows" smooth={true}  offset={-50} duration={500}>Shows</Link></li>
+    <li><Link className="hover-underline-animation" to="about" smooth={true} offset={-50} duration={500}>Über uns</Link></li>
           
 
         <div className='flex flex-col my-4'>
-            <button className='px-8 py-3 button1'>Kontakt</button>
+        <Link className='px-8 ml-4 py-3 button1' to="contact" smooth={true} offset={-50} >Kontakt</Link>
         </div>
       </ul>
     </div>
