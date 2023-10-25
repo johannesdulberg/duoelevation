@@ -14,17 +14,11 @@ import johannes from './assets/johannes.png'
 import thumbnailImage1 from './assets/thumbnail1.png';
 import thumbnailImage2 from './assets/thumbnail2.png';
 import thumbnailImage3 from './assets/thumbnail3.png';
-function App() {
+
+function MainContent() {
   return (
-    <Router>
-      
-    <div className="App">
-      <div className="content">
-        <Navbar/>
-        <Routes>
-        <Route path="/" element={
-          <>
-          <VideoHeader/>
+    <>
+      <VideoHeader/>
           <Header args={{
             headerText:"Shows",
             name:"shows",
@@ -69,7 +63,22 @@ function App() {
             name:"contact"
             }} />
           <ContactForm/>
-          </>
+    </>
+  );
+}
+
+
+function App() {
+  return (
+    <Router basename="/elevationduo">
+      
+    <div className="App">
+      <div className="content">
+        <Navbar/>
+        <Routes>
+        <Route path="/" element={<MainContent />
+          
+          
         }/>
           <Route path="/impressum" element={<Impressum />} />
         </Routes>
