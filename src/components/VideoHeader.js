@@ -28,7 +28,7 @@ const VideoHeader = () => {
         </video>
     </div>
     <div className={`absolute top-[30%] w-screen ${scrolling ? 'scrollingVideo' : ''}`} >
-        <h1 className='mx-auto text-6xl text-slate-100 font-bold'>DUO ELEVATION</h1>
+        <h1 className='mx-auto text-6xl text-slate-100 font-bold'>ELEVATION DUO</h1>
         <h2 className='mx-auto text-3xl text-slate-200 font-bold'>Performance Duo</h2>
         <div className='flex-row py-3'>
         {/*<button className='px-12 mr-12 py-3 button2'>SHOWS</button>
