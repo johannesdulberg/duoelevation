@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/duoelevation/static/css/main.54e0e388.css",
-    "main.js": "/duoelevation/static/js/main.0a4b42eb.js",
+    "main.js": "/duoelevation/static/js/main.810daa55.js",
     "static/js/787.d6032778.chunk.js": "/duoelevation/static/js/787.d6032778.chunk.js",
     "static/media/thumbnail1.png": "/duoelevation/static/media/thumbnail1.664555e7972a475e2be5.png",
     "static/media/Chrissi.mp4": "/duoelevation/static/media/Chrissi.e0bcb56d5806c0296073.mp4",
@@ -12,11 +12,11 @@
     "static/media/thumbnail2.png": "/duoelevation/static/media/thumbnail2.cab331105fc80ea52dfd.png",
     "index.html": "/duoelevation/index.html",
     "main.54e0e388.css.map": "/duoelevation/static/css/main.54e0e388.css.map",
-    "main.0a4b42eb.js.map": "/duoelevation/static/js/main.0a4b42eb.js.map",
+    "main.810daa55.js.map": "/duoelevation/static/js/main.810daa55.js.map",
     "787.d6032778.chunk.js.map": "/duoelevation/static/js/787.d6032778.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e0e388.css",
-    "static/js/main.0a4b42eb.js"
+    "static/js/main.810daa55.js"
   ]
 }
