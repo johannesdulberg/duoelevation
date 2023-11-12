@@ -70,7 +70,7 @@ function MainContent() {
 
 function App() {
   return (
-    <Router basename="/elevationduo">
+    <Router basename="/duoelevation">
       
     <div className="App">
       <div className="content">
