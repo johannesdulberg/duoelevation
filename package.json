@@ -1,6 +1,6 @@
 {
   "name": "duoreact",
-  "homepage": "https://duoelevation.com",
+  "homepage": "https://johannesdulberg.github.io/duoelevation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
-    
+
   },
   "scripts": {
     "predeploy": "npm run build",
