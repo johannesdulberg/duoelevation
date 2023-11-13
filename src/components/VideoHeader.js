@@ -22,7 +22,7 @@ const VideoHeader = () => {
     return(
     <div className='relative'>
     <div className="w-screen">
-        <video className="w-screen videoPlayer min-h-screen" width="320" height="240" autoPlay muted loop>
+        <video className="w-screen videoPlayer min-h-screen" width="320" height="240" autoPlay muted loop playsinline>
             <source src={chrissiVideo} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
