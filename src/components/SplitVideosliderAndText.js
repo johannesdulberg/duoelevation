@@ -11,13 +11,11 @@ export default function SplitVideosliderAndText(props) {
     const videos = [
         props.args.link1,
         props.args.link2,
-        props.args.link3
     ];
 
     const thumbnails =[
         thumbnailImage1,
         thumbnailImage2,
-        thumbnailImage3,
     ]
    
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
