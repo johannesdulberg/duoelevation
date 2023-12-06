@@ -2,10 +2,8 @@
 import React, { useState } from 'react';
 
 const videos = [
-    "https://www.youtube.com/embed/aLw7s9xAHh4?si=4Lnzhrx--on9-8Ih",
-    "https://www.youtube.com/embed/Q57CGxFNCgc?si=42d6l7keDik5yEth",
-    "https://www.youtube.com/embed/-hwK6fTlU9Q?si=bH4cvNVs7HwqZfrP",
-    // ... füge hier weitere Video-Links hinzu
+    "https://www.youtube.com/embed/QcBzquLR16k?si=RGguD9WxDGA2GUIP",
+    "https://www.youtube.com/embed/UpL76i_WL_U?si=siq5rEn56uUagqEh",
 ];
 
 function VideoSlider() {
@@ -35,3 +33,4 @@ function VideoSlider() {
 }
 
 export default VideoSlider;
+
