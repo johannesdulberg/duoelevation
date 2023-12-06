@@ -52,7 +52,7 @@ function MainContent() {
           />
           <SplitBoxImgAndText args={{
             headerText:"Johannes",
-            bodyText:`Seit meinem ersten Versuch in der Akrobatik habe ich mich in diesen Sport verliebt. Seither hat die Akrobatik bei mir die oberste Priorität. In jeder Halle, in der Menschen zusammen turnen, fühle ich mich Zuhause. Es ist dieses besondere Gefühl der Gemeinschaft, das mich immer wieder begeistert. Die Unterstützung und das Vertrauen, das jeder Einzelne dem anderen entgegenbringt, ist einfach unvergleichlich. Es gab Höhen und Tiefen, Momente des Triumphs und der Enttäuschung, aber all diese Erfahrungen haben mich zu dem gemacht, was ich heute bin. Und ich bin dankbar für jeden Moment, in dem ich mit diesen Menschen sport machen kann.`,
+            bodyText:`Seit meinem ersten Versuch in der Akrobatik habe ich mich in diesen Sport verliebt. Seither hat die Akrobatik bei mir die oberste Priorität. In jeder Halle, in der Menschen zusammen turnen, fühle ich mich Zuhause. Es ist dieses besondere Gefühl der Gemeinschaft, das mich immer wieder begeistert. Die Unterstützung und das Vertrauen, das jeder Einzelne dem anderen entgegenbringt, ist einfach unvergleichlich. Es gab Höhen und Tiefen, Momente des Triumphs und der Enttäuschung, aber all diese Erfahrungen haben mich zu dem gemacht, was ich heute bin. Und ich bin dankbar für jeden Moment, in dem ich mit diesen Menschen Sport machen kann.`,
             bgColor:"indigo-100",
             imagePath:johannes,
             reverse:false,
