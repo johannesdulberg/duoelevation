@@ -29,7 +29,7 @@ function MainContent() {
             ihrer nächsten Feier erleben. Egal ob Betriebsfest, Geburtstag, Ladeneröffnung oder öffentlichen Veranstaltung, wir performen für Sie!`,
             bgColor:"indigo-100",
             reverse:false,
-            link1:"https://www.youtube.com/embed/QcBzquLR16k?si=DepfPplPirsKF5Oq",
+            link1:"https://www.youtube.com/embed/UpL76i_WL_U?si=29tQSS7SuJ6oUkc4",
             link2:"https://www.youtube.com/embed/QcBzquLR16k?si=yvVsx6bejQCYW34d",
             link3:"https://www.youtube.com/embed/ZsVmOpPXDOk?si=mw1mDN_yjRVPzf87",
     
